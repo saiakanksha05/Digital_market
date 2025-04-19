@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Digital Marketing Agency Homepage" />
+  <title>Digital Marketing Agency</title>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <div id="root"></div>
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-8 py-4 shadow-md">
+    <h1 class="text-2xl font-bold text-blue-600">YourAgency</h1>
+    <nav class="space-x-6 hidden md:block">
+      <a href="#" class="hover:text-blue-600">Home</a>
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#services" class="hover:text-blue-600">Services</a>
+      <a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+      <a href="#testimonials" class="hover:text-blue-600">Testimonials</a>
+      <a href="#contact" class="hover:text-blue-600">Contact</a>
+    </nav>
+    <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Get Started</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gray-100">
+    <h2 class="text-4xl font-extrabold mb-4">Empowering Your Brand’s Digital Presence</h2>
+    <p class="text-lg mb-6">We help businesses grow through smart digital strategies.</p>
+    <div class="space-x-4">
+      <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Get Started</button>
+      <button class="bg-gray-200 text-gray-700 px-6 py-3 rounded hover:bg-gray-300">Learn More</button>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 px-8 bg-white">
+    <h3 class="text-3xl font-bold text-center mb-12">Our Services</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+      <div class="p-6 border rounded shadow-sm">
+        <h4 class="font-semibold text-xl mb-2">SEO Marketing</h4>
+        <p>Optimize your content to rank higher on search engines.</p>
+      </div>
+      <div class="p-6 border rounded shadow-sm">
+        <h4 class="font-semibold text-xl mb-2">Social Media Campaigns</h4>
+        <p>Engage audiences and grow your followers online.</p>
+      </div>
+      <div class="p-6 border rounded shadow-sm">
+        <h4 class="font-semibold text-xl mb-2">PPC Advertising</h4>
+        <p>Drive quick traffic with targeted ad campaigns.</p>
+      </div>
+      <div class="p-6 border rounded shadow-sm">
+        <h4 class="font-semibold text-xl mb-2">Content Creation</h4>
+        <p>Build trust through blogs, videos, and graphics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="bg-gray-100 py-16 px-8">
+    <h3 class="text-3xl font-bold text-center mb-12">Recent Projects</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-4 rounded shadow">Project 1</div>
+      <div class="bg-white p-4 rounded shadow">Project 2</div>
+      <div class="bg-white p-4 rounded shadow">Project 3</div>
+    </div>
+    <div class="text-center mt-6">
+      <a href="#" class="text-blue-600 underline">View Full Portfolio →</a>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-16 px-8 bg-white">
+    <h3 class="text-3xl font-bold text-center mb-12">What Our Clients Say</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <blockquote class="bg-gray-50 p-6 rounded shadow">
+        “They grew our traffic by 200%! Phenomenal service.”
+        <footer class="mt-2 text-sm text-gray-500">– Client A</footer>
+      </blockquote>
+      <blockquote class="bg-gray-50 p-6 rounded shadow">
+        “Professional and insightful team. Highly recommended.”
+        <footer class="mt-2 text-sm text-gray-500">– Client B</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section id="contact" class="text-center py-20 bg-blue-600 text-white">
+    <h3 class="text-3xl font-bold mb-4">Let's Grow Your Business Together</h3>
+    <p class="mb-6">Reach out to start your digital transformation today.</p>
+    <button class="bg-white text-blue-600 px-6 py-3 rounded hover:bg-gray-100">Contact Us</button>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white px-8 py-6 text-center">
+    <p>© 2025 YourAgency. All Rights Reserved.</p>
+    <div class="mt-2">
+      <a href="#" class="mx-2 hover:underline">Privacy Policy</a>
+      <a href="#" class="mx-2 hover:underline">Terms of Service</a>
+    </div>
+  </footer>
+
+</body>
+</html>
